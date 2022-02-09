@@ -20,6 +20,12 @@ app.get('/users', (req, res) => {
   ]);
 })
 
+app.get('/users/:id', (req, res) => {
+  res.json(
+    { id: 1, name: 'Renato', role: 'P. Especialista' }
+  );
+})
+
 
 const PORT = process.env.PORT || 3000;
 
