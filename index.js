@@ -14,9 +14,9 @@ app.get('/ping', (req, res) => {
 
 app.get('/users', (req, res) => {
   res.json([
-    { id: 1, name: 'Renato' },
-    { id: 2, name: 'Kissyla' },
-    { id: 3, name: 'Italo' }
+    { id: 1, name: 'Renato', role: 'P. Especialista' },
+    { id: 2, name: 'Kissyla', role: 'P. Instrutora' },
+    { id: 3, name: 'Italo', role: 'P. Instrutora' }
   ]);
 })
 
